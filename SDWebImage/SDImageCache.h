@@ -137,4 +137,9 @@
  */
 - (int)getMemoryCount;
 
+/**
+ * Helper method to get the file path used to store this key.
+ */
+- (NSString *)cachePathForKey:(NSString *)key;
+
 @end
